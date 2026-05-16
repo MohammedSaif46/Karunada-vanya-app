@@ -70,7 +70,7 @@ app/src/main/java/com/example/karunada_vanya/
 ### Setup
 1. Clone the repository
 ```bash
-   git clone https://github.com/SahanaGowda-01/KarunadaVanya.git
+   git clone https://github.com/MohammedSaif46/Karunada-vanya-app.git
 ```
 2. Open the project in Android Studio
 3. Add your `google-services.json` file to the `app/` directory
