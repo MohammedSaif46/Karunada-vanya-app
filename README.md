@@ -7,21 +7,9 @@ A wildlife conservation and farmer safety Android app for Karnataka's forest reg
 ## 📱 About the App
 
 Karunada Vanya is a community-focused app designed to bridge the gap between forest departments, farmers, and villagers living near Karnataka's wildlife corridors. It provides real-time wildlife movement alerts, safety guidelines, and educational resources to help communities coexist safely with wildlife.
---------
-## 📸 App Screenshots
 
-| Home | Navigation Drawer | Wildlife Wiki |
-|------|------------------|---------------|
-| ![Home](screenshots/Home%20screen.png) | ![Drawer](screenshots/overview%20screen.png) | ![Wiki](screenshots/wiki%20screen.png) |
+---
 
-| Wiki Flora | Wiki Detail | Movement Alerts |
-|------------|-------------|-----------------|
-| ![Flora](screenshots/wiki%20flora.png) | ![Detail](screenshots/wiki%20info.png) | ![Alerts](screenshots/movement%20alert%20screen.png) |
-
-| Report Movement | Safety Guide | Forest Audio | Audio Playing |
-|----------------|--------------|--------------|---------------|
-| ![Report](screenshots/create%20alert.png) | ![Safety](screenshots/safety%20guide%20screen.png) | ![Audio](screenshots/audio.png) | ![Playing](screenshots/audio%20screen.png) |
-----------
 ## ✨ Features
 
 - **🔴 Movement Alerts** — Real-time wildlife sighting reports powered by Firebase Firestore, with automatic 6-hour expiry for accuracy
@@ -46,6 +34,8 @@ Karunada Vanya is a community-focused app designed to bridge the gap between for
 ---
 
 ## 📂 Project Structure
+
+```
 app/src/main/java/com/example/karunada_vanya/
 ├── data/
 │   ├── model/          # Data classes (WikiItem, MovementAlert, etc.)
@@ -57,21 +47,26 @@ app/src/main/java/com/example/karunada_vanya/
 ├── viewmodel/          # MovementViewModel (Firebase)
 ├── navigation/         # Screen sealed class
 └── MainActivity.kt     # Entry point, responsive layout
+```
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Android Studio Hedgehog or later
 - Android device or emulator (API 26+)
 - Firebase project with Firestore enabled
 
 ### Setup
+
 1. Clone the repository
+
 ```bash
-   git clone https://github.com/MohammedSaif46/Karunada-vanya-app.git
+git clone https://github.com/MohammedSaif46/Karunada-vanya-app.git
 ```
+
 2. Open the project in Android Studio
 3. Add your `google-services.json` file to the `app/` directory
 4. Build and run the project
@@ -81,7 +76,7 @@ app/src/main/java/com/example/karunada_vanya/
 ## 🌱 Regions Covered
 
 - **Nagarahole** National Park
-- **Bandipur** Tiger Reserve  
+- **Bandipur** Tiger Reserve
 - **Kabini** Wildlife Sanctuary
 
 ---
